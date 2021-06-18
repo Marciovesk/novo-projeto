@@ -1,69 +1,12 @@
-/*Busca*/
-.destaque{
-	margin-top: 10px;
-}
+@import url(bootstrap.min.css);
+@import url(gb.css);
 
-.busca, .menu-departamentos{
-	background-color: #DCDCDC;
-	font-weight: bold;
-	text-transform: uppercase;
-
-	margin-right: 10px;
-	width: 230px;
-	float: left;
-}
-
-.busca h2, .busca form, .menu-departamentos h2{
-	margin: 10px;
-}
-
-.busca input[type=search]{
-	width: 170px;
-}
-
-.busca button{
-	/*adicionando uma img*/
-	background-image: url(../img/busca.png);
-	background-repeat: no-repeat;
-	border: none;
-	/*tamanho da img*/
-	height:20px; 
-	width:20px;
-	/*img replacement*/
-	text-indent: -9999px;
-}
-
-
-/*departamentos*/
-.menu-departamentos{
-	clear: left;
-	margin-top: 10px;
-	padding-bottom: 10px;
-}
-
-.menu-departamentos li{
-	background-color: white;
-	margin-bottom: 1px;
-	padding: 5px 10px ; 
-}
-
-.menu-departamentos a{
-	color: #333333;
-	text-decoration: none;
-}
-
-.menu-departamentos li ul{
-	display: none;
-}
-.menu-departamentos li:hover ul{
-	display: block;
-}
-.menu-departamentos ul ul li{
-	background-color: #DCDCDC;
-}
-.menu-departamentos li li a:before{
-	content: '\272A';
-	padding: 3px;
+/*banners*/
+.carousel-slides{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 /*painel novidades*/
@@ -82,26 +25,31 @@
 }
 
 .painel{
-	margin: 10px 0;
-	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 	width: 442px;
 }
 
+.novidades, .mais-vendidos{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.painel ol, ul {
+	padding-left: 2px;
+}
+
 .painel figcaption{
-	padding-left: 12px;
+	text-justify: left;
+	max-width: 120px;
 	color: rgb(44, 44, 44);
 }
 
 .painel li{
 	display: inline-block;
 	vertical-align: top;
-	width: 140px;
-
-	margin: 2px;
 	padding-bottom: 10px;
 }
-
-
 
 .painel a{
 	color: #333;
@@ -112,11 +60,15 @@
 
 .painel img {
 	border-radius: 20px 4px 20px 4px;
+	width: 116px;
 }
 
 .novidades{
 	float: left;
 	background-color: #32a8cc; 
+}
+.novidades li {
+	padding-left: 14px;
 }
 
 .mais-vendidos{
@@ -124,5 +76,5 @@
 	background-color: rgb(159, 86, 228);
 }
 .mais-vendidos li {
-	padding-left: 3px;
+	padding-left: 17px;
 }

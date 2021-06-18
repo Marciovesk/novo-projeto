@@ -1,0 +1,22 @@
+@import url(bootstrap.min.css);
+@import url(gb.css);
+
+.titulo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cards-departamentos {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px 100px;
+}
+.card {
+    text-align: center;
+    padding-top: 36px;
+}
+
+.card img{
+    width: 120px;
+}

@@ -1,3 +1,6 @@
+@import url(bootstrap.min.css);
+@import url(/css/gb.css);
+
 /*conteudo*/
 
 div{
@@ -14,9 +17,10 @@ div #conteudo{
 .conteudo h1{
 	background-image: url(../img/sobre-background.jpg);
 	margin: 10px 0;
-	padding: 20px 0;
+	padding: 20px 20px;
 	font-size: 30px;
 	font-weight: bold;
+	width: 917px;
 }
 
 p::first-letter{
@@ -75,7 +79,7 @@ figcaption{
 
 /* div diferenciais*/
 .diferenciais{
-	padding: 10px 0;
+	padding: 20px 20px 40px 20px;
 }
 .diferenciais li{
 	padding: 5px 0;
